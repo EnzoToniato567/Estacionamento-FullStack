@@ -43,5 +43,32 @@ O ESTACIONAMENTO ACME tem atuado em nossa cidade com ótimo atendimento e segura
 
 ## Tecnologias
 
+- VsCode
+- HTML, CSS e JavaScript
+- Xampp database local (localhost) 
+- Insomnia 
+- Live Server Extension
+- Prisma ORM
+
 ## Passo a Passo de como executar e testar
 
+- Clone este repositório:
+```bash 
+https://github.com/EnzoToniato567/Estacionamento-FullStack
+```
+1 - Abra a pasta `cd api` no terminal do VsCode
+<br>
+2 - Dentro de `/api`, rode os comandos: 
+```bash
+npm install
+```
+```bash
+npx prisma migrate dev
+```
+```bash
+npx prisma generate
+```
+<br>
+3 - Execute o comando `npm run dev` ou `node server.js` para iniciar o servidor
+<br>
+4 - Em seguida, abra a pasta `/web` e execute o arquivo `index.html` com Live Server
