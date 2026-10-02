@@ -68,7 +68,6 @@ npx prisma migrate dev
 ```bash
 npx prisma generate
 ```
-<br>
 3 - Execute o comando `npm run dev` ou `node server.js` para iniciar o servidor
 <br>
 4 - Em seguida, abra a pasta `/web` e execute o arquivo `index.html` com Live Server
